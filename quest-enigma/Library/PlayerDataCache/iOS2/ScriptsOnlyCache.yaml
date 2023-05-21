@@ -1,173 +1,14 @@
 ScriptsOnlyBuild:
   usedScripts:
-    Assembly-CSharp.dll:
-    - BackButton
-    - BoxScript
-    - DigButton
-    - DigManager
-    - Otemo
-    - TresureLocation
-    - Web
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
-    Unity.TextMeshPro.dll:
-    - TMPro.TMP_FontAsset
-    - TMPro.TMP_Settings
-    - TMPro.TMP_SpriteAsset
-    - TMPro.TMP_StyleSheet
-    - TMPro.TextMeshProUGUI
-    Unity.VisualScripting.Core.dll:
-    - Unity.VisualScripting.Variables
-    UnityEditor.Graphs.dll:
-    - UnityEditor.Graphs.AnimationBlendTree.Graph
-    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
-    - UnityEditor.Graphs.AnimationStateMachine.Graph
-    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
-    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
-    UnityEngine.UI.dll:
-    - UnityEngine.EventSystems.EventSystem
-    - UnityEngine.EventSystems.StandaloneInputModule
-    - UnityEngine.UI.Button
-    - UnityEngine.UI.CanvasScaler
-    - UnityEngine.UI.ContentSizeFitter
-    - UnityEngine.UI.GraphicRaycaster
-    - UnityEngine.UI.Image
-    - UnityEngine.UI.Mask
-    - UnityEngine.UI.ScrollRect
-    - UnityEngine.UI.Scrollbar
-    - UnityEngine.UI.VerticalLayoutGroup
-  serializedClasses:
-    Unity.TextMeshPro:
-    - TMPro.FaceInfo_Legacy
-    - TMPro.FontAssetCreationSettings
-    - TMPro.KerningTable
-    - TMPro.TMP_Character
-    - TMPro.TMP_FontFeatureTable
-    - TMPro.TMP_FontWeightPair
-    - TMPro.TMP_GlyphAdjustmentRecord
-    - TMPro.TMP_GlyphPairAdjustmentRecord
-    - TMPro.TMP_GlyphValueRecord
-    - TMPro.TMP_Sprite
-    - TMPro.TMP_SpriteCharacter
-    - TMPro.TMP_SpriteGlyph
-    - TMPro.TMP_Style
-    - TMPro.VertexGradient
-    Unity.VisualScripting.Core:
-    - Unity.VisualScripting.SerializationData
-    UnityEngine.CoreModule:
-    - UnityEngine.Events.ArgumentCache
-    - UnityEngine.Events.PersistentCallGroup
-    - UnityEngine.Events.PersistentListenerMode
-    - UnityEngine.RectOffset
-    UnityEngine.TextCoreFontEngineModule:
-    - UnityEngine.TextCore.FaceInfo
-    - UnityEngine.TextCore.Glyph
-    - UnityEngine.TextCore.GlyphMetrics
-    - UnityEngine.TextCore.GlyphRect
-    UnityEngine.UI:
-    - UnityEngine.UI.AnimationTriggers
-    - UnityEngine.UI.Button/ButtonClickedEvent
-    - UnityEngine.UI.ColorBlock
-    - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
-    - UnityEngine.UI.Navigation
-    - UnityEngine.UI.ScrollRect/ScrollRectEvent
-    - UnityEngine.UI.Scrollbar/ScrollEvent
-    - UnityEngine.UI.SpriteState
-  methodsToPreserve:
-  - assembly: Assembly-CSharp
-    fullTypeName: DigButton
-    methodName: onDigClick
-  - assembly: Assembly-CSharp
-    fullTypeName: BackButton
-    methodName: onClick
+  serializedClasses: {}
+  methodsToPreserve: []
   sceneClasses:
-    Assets/Scenes/DigScene.unity:
-    - Class: 1
-      Script: {instanceID: 0}
-    - Class: 4
-      Script: {instanceID: 0}
-    - Class: 20
-      Script: {instanceID: 0}
-    - Class: 21
-      Script: {instanceID: 0}
-    - Class: 23
-      Script: {instanceID: 0}
-    - Class: 28
-      Script: {instanceID: 0}
-    - Class: 33
-      Script: {instanceID: 0}
-    - Class: 43
-      Script: {instanceID: 0}
-    - Class: 48
-      Script: {instanceID: 0}
-    - Class: 64
-      Script: {instanceID: 0}
-    - Class: 74
-      Script: {instanceID: 0}
-    - Class: 81
-      Script: {instanceID: 0}
-    - Class: 89
-      Script: {instanceID: 0}
-    - Class: 91
-      Script: {instanceID: 0}
-    - Class: 95
-      Script: {instanceID: 0}
-    - Class: 104
-      Script: {instanceID: 0}
-    - Class: 108
-      Script: {instanceID: 0}
-    - Class: 114
-      Script: {instanceID: 1582}
-    - Class: 114
-      Script: {instanceID: 2434}
-    - Class: 114
-      Script: {instanceID: 2564}
-    - Class: 114
-      Script: {instanceID: 2760}
-    - Class: 114
-      Script: {instanceID: 3036}
-    - Class: 114
-      Script: {instanceID: 4928}
-    - Class: 114
-      Script: {instanceID: 5124}
-    - Class: 114
-      Script: {instanceID: 5464}
-    - Class: 114
-      Script: {instanceID: 5608}
-    - Class: 114
-      Script: {instanceID: 5758}
-    - Class: 114
-      Script: {instanceID: 5846}
-    - Class: 114
-      Script: {instanceID: 5920}
-    - Class: 114
-      Script: {instanceID: 6008}
-    - Class: 114
-      Script: {instanceID: 7208}
-    - Class: 115
-      Script: {instanceID: 0}
-    - Class: 128
-      Script: {instanceID: 0}
-    - Class: 157
-      Script: {instanceID: 0}
-    - Class: 196
-      Script: {instanceID: 0}
-    - Class: 212
-      Script: {instanceID: 0}
-    - Class: 213
-      Script: {instanceID: 0}
-    - Class: 222
-      Script: {instanceID: 0}
-    - Class: 223
-      Script: {instanceID: 0}
-    - Class: 224
-      Script: {instanceID: 0}
     Assets/Scenes/SampleScene.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -181,8 +22,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
-    - Class: 49
-      Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
     - Class: 89
@@ -191,59 +30,9 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
-    - Class: 114
-      Script: {instanceID: 1582}
-    - Class: 114
-      Script: {instanceID: 2152}
-    - Class: 114
-      Script: {instanceID: 2396}
-    - Class: 114
-      Script: {instanceID: 2564}
-    - Class: 114
-      Script: {instanceID: 2760}
-    - Class: 114
-      Script: {instanceID: 3036}
-    - Class: 114
-      Script: {instanceID: 3202}
-    - Class: 114
-      Script: {instanceID: 3782}
-    - Class: 114
-      Script: {instanceID: 4006}
-    - Class: 114
-      Script: {instanceID: 4252}
-    - Class: 114
-      Script: {instanceID: 4654}
-    - Class: 114
-      Script: {instanceID: 4928}
-    - Class: 114
-      Script: {instanceID: 5464}
-    - Class: 114
-      Script: {instanceID: 5608}
-    - Class: 114
-      Script: {instanceID: 5758}
-    - Class: 114
-      Script: {instanceID: 5920}
-    - Class: 114
-      Script: {instanceID: 5928}
-    - Class: 114
-      Script: {instanceID: 6322}
-    - Class: 114
-      Script: {instanceID: 6942}
-    - Class: 115
-      Script: {instanceID: 0}
-    - Class: 128
-      Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
-      Script: {instanceID: 0}
-    - Class: 213
-      Script: {instanceID: 0}
-    - Class: 222
-      Script: {instanceID: 0}
-    - Class: 223
-      Script: {instanceID: 0}
-    - Class: 224
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -342,18 +131,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: RawImage
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: DigButton
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: BoxScript
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -686,12 +463,6 @@ ScriptsOnlyBuild:
     className: GridLayoutGroup
   - hash:
       serializedVersion: 2
-      Hash: bad22b580078b0b4c498dc27ae3cec44
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Web
-  - hash:
-      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
@@ -771,12 +542,6 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Otemo
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnDeselectMessageListener
@@ -818,22 +583,10 @@ ScriptsOnlyBuild:
     className: TextMeshProUGUI
   - hash:
       serializedVersion: 2
-      Hash: 6b44d6068a22100372080088f8e24f02
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: TresureLocation
-  - hash:
-      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnMouseUpAsButtonMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 3c3c470300c4ed55a54348b09d281cbf
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: DigManager
   - hash:
       serializedVersion: 2
       Hash: e09e8bebc0fcd32bb8af1287a6b44816
@@ -864,12 +617,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools
     className: BeforeAfterTestCommandState
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: BackButton
   - hash:
       serializedVersion: 2
       Hash: 4fd8bf02e3089425d3502e26c44ba31a
@@ -1065,5 +812,4 @@ ScriptsOnlyBuild:
   platform: 9
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  - Assets/Scenes/DigScene.unity
-  playerPath: /Users/kysaeed/work/unity/MobileUI/MBBuild
+  playerPath: /Users/kysaeed/work/qnigma-builds
