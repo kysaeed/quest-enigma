@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{9F3932A7-CBCC-CAE6-F025-9CDCEC62A1CA}|">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="14e1749b-8622-45db-9612-c88f4bec6146" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Web.cs">
+    <Files>
+      <File FileName="Assets/Web.cs" Line="94" Column="1" />
+      <File FileName="Assets/DigManager.cs" Line="15" Column="1" />
+      <File FileName="Assets/Otemo.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MobileUI" expanded="True">
+            <Node name="Assets" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
